@@ -1,0 +1,205 @@
+:root {
+  --pps-primary: #2563eb;
+  --pps-primary-dark: #1d4ed8;
+  --pps-accent: #0f172a;
+  --pps-muted: #64748b;
+  --pps-surface: #f8fafc;
+  --pps-border: #e2e8f0;
+  --pps-radius: 0.75rem;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--pps-accent);
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+/* Navbar */
+.site-navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.brand-mark {
+  color: var(--pps-primary);
+}
+
+.brand-text {
+  color: var(--pps-accent);
+  font-weight: 500;
+}
+
+.nav-link {
+  color: var(--pps-muted);
+  font-weight: 500;
+  padding: 0.5rem 0.85rem !important;
+  border-radius: 0.5rem;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--pps-primary);
+}
+
+.nav-link.active {
+  color: var(--pps-primary);
+  background-color: rgba(37, 99, 235, 0.08);
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--pps-primary);
+  border-color: var(--pps-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--pps-primary-dark);
+  border-color: var(--pps-primary-dark);
+}
+
+.btn-outline-primary {
+  color: var(--pps-primary);
+  border-color: var(--pps-primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--pps-primary);
+  border-color: var(--pps-primary);
+}
+
+/* Sections */
+.hero-section {
+  background: linear-gradient(135deg, var(--pps-surface) 0%, #eef2ff 100%);
+  border: 1px solid var(--pps-border);
+}
+
+.cta-section {
+  background-color: var(--pps-surface);
+  border-color: var(--pps-border) !important;
+}
+
+/* Cards */
+.service-card,
+.portfolio-card {
+  border: 1px solid var(--pps-border);
+  border-radius: var(--pps-radius);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.service-card:hover,
+.portfolio-card:hover {
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  transform: translateY(-2px);
+}
+
+.card-footer .badge {
+  font-weight: 500;
+}
+
+/* About */
+.about-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--pps-primary) 0%, #6366f1 100%);
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.why-list li {
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.why-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--pps-primary);
+  font-weight: 700;
+}
+
+/* Contact */
+.contact-info {
+  background-color: var(--pps-surface);
+  border: 1px solid var(--pps-border);
+}
+
+.contact-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--pps-muted);
+  font-weight: 600;
+}
+
+.contact-list a {
+  color: var(--pps-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-list a:hover {
+  color: var(--pps-primary);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--pps-surface);
+  margin-top: auto;
+}
+
+.footer-brand {
+  font-weight: 700;
+  color: var(--pps-accent);
+}
+
+.footer-link {
+  color: var(--pps-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-link:hover {
+  color: var(--pps-primary);
+}
+
+/* Utilities */
+.text-secondary {
+  color: var(--pps-muted) !important;
+}
+
+main .alert-success {
+  border-radius: var(--pps-radius);
+}
+
+@media (max-width: 767.98px) {
+  .hero-section {
+    padding: 2rem !important;
+  }
+
+  .display-5 {
+    font-size: 1.75rem;
+  }
+
+  .site-footer .col-md-4 {
+    text-align: center !important;
+  }
+}
