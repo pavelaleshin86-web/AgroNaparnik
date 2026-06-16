@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+
+{% block title %}Главная — PPS Studio{% endblock %}
+{% block og_title %}Главная — PPS Studio{% endblock %}
+
+{% block meta_description %}Разработка сайтов, лендингов и веб-приложений на Python и Django. Быстрый запуск MVP для малого бизнеса и стартапов.{% endblock %}
+{% block og_description %}Разработка сайтов, лендингов и веб-приложений на Python и Django. Быстрый запуск MVP для малого бизнеса и стартапов.{% endblock %}
+
+{% block content %}
+  <section class="hero-section p-5 mb-5 rounded-3">
+    <div class="container-fluid py-3">
+      <h1 class="display-5 fw-bold mb-3">Сайты и веб-приложения, которые приносят заявки</h1>
+      <p class="col-lg-8 fs-5 text-secondary mb-4">
+        Я — Павел, веб-разработчик на Python и Django. Помогаю предпринимателям и небольшим
+        командам запускать сайты-визитки, лендинги и внутренние сервисы: от идеи до работающего
+        продукта за 1–4 недели.
+      </p>
+      <div class="d-flex gap-2 flex-wrap">
+        <a class="btn btn-primary btn-lg" href="{% url 'contact' %}">Обсудить проект</a>
+        <a class="btn btn-outline-secondary btn-lg" href="{% url 'portfolio' %}">Посмотреть кейсы</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5">
+    <div class="d-flex align-items-end justify-content-between flex-wrap gap-2 mb-3">
+      <div>
+        <h2 class="h3 mb-1">Услуги</h2>
+        <p class="text-secondary mb-0">Три формата сотрудничества — подберём под вашу задачу и бюджет.</p>
+      </div>
+      <a class="btn btn-sm btn-outline-primary" href="{% url 'services' %}">Все услуги</a>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="card h-100 service-card">
+          <div class="card-body">
+            <h3 class="h5 card-title">Сайт-визитка / лендинг</h3>
+            <p class="card-text text-secondary">
+              Одностраничник или многостраничный сайт с формой заявки, адаптивной вёрсткой и базовым SEO.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pt-0">
+            <span class="badge text-bg-light border">от 25 000 ₽ · 5–7 дней</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 service-card">
+          <div class="card-body">
+            <h3 class="h5 card-title">Веб-приложение на Django</h3>
+            <p class="card-text text-secondary">
+              Личный кабинет, CRM, каталог с админкой — backend, база данных и интерфейс под ключ.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pt-0">
+            <span class="badge text-bg-light border">от 80 000 ₽ · 2–4 недели</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 service-card">
+          <div class="card-body">
+            <h3 class="h5 card-title">Доработка и поддержка</h3>
+            <p class="card-text text-secondary">
+              Исправление багов, новые функции, деплой и мониторинг уже существующего проекта.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pt-0">
+            <span class="badge text-bg-light border">от 5 000 ₽/мес</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5">
+    <div class="d-flex align-items-end justify-content-between flex-wrap gap-2 mb-3">
+      <div>
+        <h2 class="h3 mb-1">Кейсы</h2>
+        <p class="text-secondary mb-0">Реальные задачи клиентов и измеримый результат.</p>
+      </div>
+      <a class="btn btn-sm btn-outline-primary" href="{% url 'portfolio' %}">Все кейсы</a>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 portfolio-card">
+          <div class="card-body">
+            <h3 class="h5 card-title">Лендинг для студии мебели</h3>
+            <p class="card-text text-secondary">
+              Заменили устаревший сайт на быстрый лендинг с каталогом и формой расчёта — заявки выросли на 30%.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <span class="badge text-bg-success">+30% заявок</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 portfolio-card">
+          <div class="card-body">
+            <h3 class="h5 card-title">CRM для салона красоты</h3>
+            <p class="card-text text-secondary">
+              Записи, напоминания и учёт мастеров в одном интерфейсе — администратор экономит 10 часов в неделю.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <span class="badge text-bg-primary">−10 ч/нед на рутину</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 portfolio-card">
+          <div class="card-body">
+            <h3 class="h5 card-title">Корпоративный сайт IT-компании</h3>
+            <p class="card-text text-secondary">
+              Сайт-визитка с портфолио и блогом — запущен за 7 дней, готов к продвижению в поиске.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <span class="badge text-bg-warning">запуск за 7 дней</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section border rounded-3 p-4 p-md-5">
+    <div class="row align-items-center g-3">
+      <div class="col-lg-8">
+        <h2 class="h4 mb-2">Готовы обсудить задачу?</h2>
+        <p class="text-secondary mb-0">
+          Напишите — отвечу в течение дня, задам уточняющие вопросы и предложу план с оценкой сроков.
+        </p>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <a class="btn btn-primary btn-lg w-100 w-lg-auto" href="{% url 'contact' %}">Оставить заявку</a>
+      </div>
+    </div>
+  </section>
+{% endblock %}

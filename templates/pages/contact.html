@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}Контакты — PPS Studio{% endblock %}
+{% block og_title %}Контакты — PPS Studio{% endblock %}
+
+{% block meta_description %}Свяжитесь с PPS Studio: email, Telegram и форма заявки. Отвечаю в течение рабочего дня.{% endblock %}
+{% block og_description %}Свяжитесь с PPS Studio: email, Telegram и форма заявки. Отвечаю в течение рабочего дня.{% endblock %}
+
+{% block content %}
+  <h1 class="h2 mb-4">Контакты</h1>
+
+  <div class="row g-4">
+    <div class="col-lg-5">
+      <div class="contact-info p-4 rounded-3 h-100">
+        <h2 class="h5 mb-3">Прямые контакты</h2>
+        <p class="text-secondary mb-4">
+          Напишите удобным способом — отвечаю в течение рабочего дня, обычно быстрее.
+        </p>
+        <ul class="list-unstyled contact-list mb-0">
+          <li class="mb-3">
+            <span class="contact-label">Email</span><br>
+            <a href="mailto:hello@pps.studio">hello@pps.studio</a>
+          </li>
+          <li class="mb-3">
+            <span class="contact-label">Telegram</span><br>
+            <a href="https://t.me/pps_dev" target="_blank" rel="noopener noreferrer">@pps_dev</a>
+          </li>
+          <li>
+            <span class="contact-label">Телефон</span><br>
+            <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-lg-7">
+      <h2 class="h5 mb-3">Форма заявки</h2>
+      <p class="text-secondary small mb-3">
+        Опишите задачу кратко — имя, контакт и суть проекта. Все поля обязательны.
+      </p>
+
+      <form method="post" class="row g-3" novalidate>
+        {% csrf_token %}
+
+        <div class="col-md-6">
+          <label class="form-label" for="id_name">Имя</label>
+          {{ form.name }}
+          {% if form.name.errors %}
+            <div class="text-danger small">{{ form.name.errors.0 }}</div>
+          {% endif %}
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label" for="id_email">Email</label>
+          {{ form.email }}
+          {% if form.email.errors %}
+            <div class="text-danger small">{{ form.email.errors.0 }}</div>
+          {% endif %}
+        </div>
+
+        <div class="col-12">
+          <label class="form-label" for="id_message">Сообщение</label>
+          {{ form.message }}
+          {% if form.message.errors %}
+            <div class="text-danger small">{{ form.message.errors.0 }}</div>
+          {% endif %}
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

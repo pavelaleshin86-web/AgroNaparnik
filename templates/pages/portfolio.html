@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block title %}Портфолио — PPS Studio{% endblock %}
+{% block og_title %}Портфолио — PPS Studio{% endblock %}
+
+{% block meta_description %}Кейсы веб-разработки: лендинги, CRM и корпоративные сайты на Python и Django с измеримым результатом для бизнеса.{% endblock %}
+{% block og_description %}Кейсы веб-разработки: лендинги, CRM и корпоративные сайты на Python и Django с измеримым результатом для бизнеса.{% endblock %}
+
+{% block content %}
+  <header class="mb-4">
+    <h1 class="h2 mb-2">Портфолио</h1>
+    <p class="text-secondary mb-0">
+      Короткие кейсы: задача клиента → решение → измеримый результат.
+    </p>
+  </header>
+
+  <div class="row g-4">
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 portfolio-card">
+        <div class="card-body">
+          <h2 class="h5">Лендинг для студии мебели</h2>
+          <p class="text-secondary small mb-2"><strong>Задача:</strong> старый сайт не приносил заявок, каталог был неудобен на телефоне.</p>
+          <p class="text-secondary small mb-2"><strong>Решение:</strong> новый лендинг с галереей работ, калькулятором стоимости и формой замера.</p>
+          <p class="text-secondary small mb-0"><strong>Результат:</strong> заявки выросли на 30% за первый месяц после запуска.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <span class="badge text-bg-success">+30% заявок</span>
+          <span class="badge text-bg-light border ms-1">6 дней</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 portfolio-card">
+        <div class="card-body">
+          <h2 class="h5">CRM для салона красоты</h2>
+          <p class="text-secondary small mb-2"><strong>Задача:</strong> записи вели в Excel и мессенджерах — путались мастера и клиенты.</p>
+          <p class="text-secondary small mb-2"><strong>Решение:</strong> веб-приложение с расписанием, SMS-напоминаниями и учётом услуг.</p>
+          <p class="text-secondary small mb-0"><strong>Результат:</strong> администратор экономит 10 часов в неделю на рутине.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <span class="badge text-bg-primary">−10 ч/нед</span>
+          <span class="badge text-bg-light border ms-1">3 недели</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 portfolio-card">
+        <div class="card-body">
+          <h2 class="h5">Корпоративный сайт IT-компании</h2>
+          <p class="text-secondary small mb-2"><strong>Задача:</strong> нужен презентабельный сайт к выставке, старый шаблон не отражал экспертизу.</p>
+          <p class="text-secondary small mb-2"><strong>Решение:</strong> сайт-визитка с кейсами, командой и блогом на Django с удобной админкой.</p>
+          <p class="text-secondary small mb-0"><strong>Результат:</strong> запуск за 7 дней, готов к SEO-продвижению.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <span class="badge text-bg-warning">7 дней до запуска</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 portfolio-card">
+        <div class="card-body">
+          <h2 class="h5">Каталог для оптового поставщика</h2>
+          <p class="text-secondary small mb-2"><strong>Задача:</strong> менеджеры вручную отправляли прайсы — актуальность цен терялась.</p>
+          <p class="text-secondary small mb-2"><strong>Решение:</strong> закрытый каталог с личными кабинетами для партнёров и выгрузкой в Excel.</p>
+          <p class="text-secondary small mb-0"><strong>Результат:</strong> время на обработку заказа сократилось на 40%.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <span class="badge text-bg-success">−40% время заказа</span>
+          <span class="badge text-bg-light border ms-1">4 недели</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 portfolio-card">
+        <div class="card-body">
+          <h2 class="h5">Telegram-бот для доставки еды</h2>
+          <p class="text-secondary small mb-2"><strong>Задача:</strong> принимать заказы без звонков в часы пик, синхронизировать с кухней.</p>
+          <p class="text-secondary small mb-2"><strong>Решение:</strong> бот с меню, корзиной и уведомлениями курьерам через Django backend.</p>
+          <p class="text-secondary small mb-0"><strong>Результат:</strong> 60% заказов теперь приходят через бота, меньше пропущенных звонков.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <span class="badge text-bg-primary">60% заказов через бота</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 portfolio-card">
+        <div class="card-body">
+          <h2 class="h5">Редизайн сайта юридической фирмы</h2>
+          <p class="text-secondary small mb-2"><strong>Задача:</strong> устаревший дизайн и низкое доверие — клиенты уходили к конкурентам.</p>
+          <p class="text-secondary small mb-2"><strong>Решение:</strong> современный сайт с отзывами, FAQ и онлайн-записью на консультацию.</p>
+          <p class="text-secondary small mb-0"><strong>Результат:</strong> конверсия в заявку выросла с 1,2% до 3,1%.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <span class="badge text-bg-success">+158% конверсия</span>
+          <span class="badge text-bg-light border ms-1">10 дней</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="cta-section border rounded-3 p-4 mt-5">
+    <div class="row align-items-center g-3">
+      <div class="col-lg-8">
+        <h2 class="h5 mb-2">Хотите похожий результат?</h2>
+        <p class="text-secondary mb-0">Расскажите о задаче — предложу решение и оценку в течение дня.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <a class="btn btn-primary" href="{% url 'contact' %}">Обсудить проект</a>
+      </div>
+    </div>
+  </section>
+{% endblock %}

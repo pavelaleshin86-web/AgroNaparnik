@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block title %}Услуги — PPS Studio{% endblock %}
+{% block og_title %}Услуги — PPS Studio{% endblock %}
+
+{% block meta_description %}Разработка сайтов-визиток, лендингов, веб-приложений на Django и техническая поддержка. Цены, сроки и что входит в каждый формат.{% endblock %}
+{% block og_description %}Разработка сайтов-визиток, лендингов, веб-приложений на Django и техническая поддержка. Цены, сроки и что входит в каждый формат.{% endblock %}
+
+{% block content %}
+  <header class="mb-4">
+    <h1 class="h2 mb-2">Услуги</h1>
+    <p class="text-secondary mb-0">
+      Выберите формат — уточню задачу, предложу план работ и зафиксирую сроки до старта.
+    </p>
+  </header>
+
+  <div class="row g-4">
+    <div class="col-lg-6">
+      <div class="card h-100 service-card">
+        <div class="card-body">
+          <h2 class="h5">Сайт-визитка / лендинг</h2>
+          <p class="text-secondary">
+            Одностраничный или многостраничный сайт для презентации услуг, сбора заявок и базового SEO.
+            Подходит для фрилансеров, локального бизнеса и запуска нового направления.
+          </p>
+          <p class="small fw-semibold mb-2">Что входит:</p>
+          <ul class="mb-0">
+            <li>Адаптивная вёрстка (мобильные и десктоп)</li>
+            <li>Форма обратной связи с уведомлениями на email</li>
+            <li>Админка для просмотра заявок</li>
+            <li>Базовая SEO-разметка (title, description, Open Graph)</li>
+            <li>Деплой на хостинг и передача доступов</li>
+          </ul>
+        </div>
+        <div class="card-footer bg-transparent d-flex justify-content-between align-items-center flex-wrap gap-2">
+          <span class="fw-semibold">от 25 000 ₽ · 5–7 дней</span>
+          <a class="btn btn-sm btn-outline-primary" href="{% url 'contact' %}">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="card h-100 service-card">
+        <div class="card-body">
+          <h2 class="h5">Веб-приложение на Django</h2>
+          <p class="text-secondary">
+            Полноценный backend с базой данных, авторизацией и админ-панелью. CRM, каталог,
+            личный кабинет, внутренние инструменты для команды.
+          </p>
+          <p class="small fw-semibold mb-2">Что входит:</p>
+          <ul class="mb-0">
+            <li>Проектирование моделей данных и API</li>
+            <li>Интерфейс пользователя (Bootstrap или ваш дизайн)</li>
+            <li>Роли и права доступа</li>
+            <li>Тесты ключевых сценариев</li>
+            <li>Документация и инструкция по развёртыванию</li>
+          </ul>
+        </div>
+        <div class="card-footer bg-transparent d-flex justify-content-between align-items-center flex-wrap gap-2">
+          <span class="fw-semibold">от 80 000 ₽ · 2–4 недели</span>
+          <a class="btn btn-sm btn-outline-primary" href="{% url 'contact' %}">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="card h-100 service-card">
+        <div class="card-body">
+          <h2 class="h5">Интеграции и автоматизация</h2>
+          <p class="text-secondary">
+            Подключение платёжных систем, CRM, Telegram-ботов, выгрузок в 1С и других внешних сервисов
+            к вашему сайту или приложению.
+          </p>
+          <p class="small fw-semibold mb-2">Что входит:</p>
+          <ul class="mb-0">
+            <li>Анализ API и составление ТЗ</li>
+            <li>Надёжная обработка webhook-ов и ошибок</li>
+            <li>Логирование и мониторинг интеграций</li>
+            <li>Документация для вашей команды</li>
+          </ul>
+        </div>
+        <div class="card-footer bg-transparent d-flex justify-content-between align-items-center flex-wrap gap-2">
+          <span class="fw-semibold">от 15 000 ₽ · 3–10 дней</span>
+          <a class="btn btn-sm btn-outline-primary" href="{% url 'contact' %}">Обсудить</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="card h-100 service-card">
+        <div class="card-body">
+          <h2 class="h5">Доработка и техническая поддержка</h2>
+          <p class="text-secondary">
+            Сопровождение существующего Django-проекта: исправление ошибок, новые функции,
+            обновление зависимостей, помощь с деплоем.
+          </p>
+          <p class="small fw-semibold mb-2">Что входит:</p>
+          <ul class="mb-0">
+            <li>Аудит кода и рекомендации по улучшению</li>
+            <li>Исправление багов в приоритетном порядке</li>
+            <li>Мелкие доработки по запросу</li>
+            <li>Консультации по архитектуре и масштабированию</li>
+          </ul>
+        </div>
+        <div class="card-footer bg-transparent d-flex justify-content-between align-items-center flex-wrap gap-2">
+          <span class="fw-semibold">от 5 000 ₽/мес</span>
+          <a class="btn btn-sm btn-outline-primary" href="{% url 'contact' %}">Обсудить</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
