@@ -33,37 +33,24 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand.brand-lockup {
   display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
-  text-decoration: none;
   padding: 0;
+  text-decoration: none;
 }
 
-.brand-icon {
-  width: 40px;
+.brand-logo {
+  display: block;
   height: 48px;
-  flex-shrink: 0;
+  width: auto;
+  max-width: min(220px, 70vw);
+  object-fit: contain;
 }
 
-.brand-lockup-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.15;
-}
-
-.brand-name {
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--an-green-dark);
-  text-transform: uppercase;
-}
-
-.brand-tagline {
-  font-size: 0.62rem;
-  font-weight: 400;
-  color: var(--an-muted);
-  letter-spacing: 0.01em;
-  margin-top: 0.15rem;
+.footer-logo {
+  display: block;
+  height: 40px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
 }
 
 .nav-link {
@@ -216,22 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-brand-lockup {
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.footer-brand-name {
-  font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 0.04em;
-  color: var(--an-green-dark);
-  text-transform: uppercase;
-}
-
-.footer-tagline {
-  font-size: 0.75rem;
-  color: var(--an-muted);
-  margin: 0;
+  align-items: center;
 }
 
 .footer-link {
@@ -254,12 +226,13 @@ main .alert-success {
 }
 
 @media (max-width: 767.98px) {
-  .brand-tagline {
-    display: none;
+  .brand-logo {
+    height: 40px;
   }
 
-  .brand-name {
-    font-size: 0.8rem;
+  .footer-logo {
+    height: 36px;
+    margin: 0 auto;
   }
 
   .hero-section {
@@ -276,7 +249,7 @@ main .alert-success {
 }
 
 @media (max-width: 991.98px) {
-  .brand-lockup-text {
-    max-width: 11rem;
+  .brand-logo {
+    max-width: min(200px, 65vw);
   }
 }

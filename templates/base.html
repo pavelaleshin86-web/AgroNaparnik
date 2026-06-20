@@ -28,7 +28,7 @@
 
     <meta property="og:url" content="{{ request.build_absolute_uri }}" />
 
-    <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'img/og-default.svg' %}" />
+    <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'img/logo.png' %}" />
 
 
 
@@ -57,17 +57,13 @@
       <div class="container">
 
         <a class="navbar-brand brand-lockup" href="{% url 'home' %}">
-
-          <img class="brand-icon" src="{% static 'img/logo-icon.svg' %}" width="40" height="48" alt="" />
-
-          <span class="brand-lockup-text">
-
-            <span class="brand-name">Агронапарник</span>
-
-            <span class="brand-tagline">IT-консалтинг в агробизнесе</span>
-
-          </span>
-
+          <img
+            class="brand-logo"
+            src="{% static 'img/logo.png' %}"
+            width="220"
+            height="48"
+            alt="Агронапарник — IT-консалтинг в агробизнесе"
+          />
         </a>
 
 
@@ -151,11 +147,13 @@
           <div class="col-md-4">
 
             <div class="footer-brand-lockup">
-
-              <span class="footer-brand-name">Агронапарник</span>
-
-              <p class="footer-tagline">IT-консалтинг в агробизнесе</p>
-
+              <img
+                class="footer-logo"
+                src="{% static 'img/logo.png' %}"
+                width="180"
+                height="40"
+                alt="Агронапарник"
+              />
             </div>
 
           </div>
