@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48" fill="none" aria-hidden="true">
+  <!-- Pixel leaf: nature + technology -->
+  <g transform="translate(4 2)">
+    <rect x="20" y="0" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="25" y="0" width="5" height="5" fill="#3DA63A"/>
+    <rect x="15" y="5" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="20" y="5" width="5" height="5" fill="#3DA63A"/>
+    <rect x="25" y="5" width="5" height="5" fill="#3DA63A"/>
+    <rect x="30" y="5" width="5" height="5" fill="#1E7B24"/>
+    <rect x="10" y="10" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="15" y="10" width="5" height="5" fill="#3DA63A"/>
+    <rect x="20" y="10" width="5" height="5" fill="#3DA63A"/>
+    <rect x="25" y="10" width="5" height="5" fill="#1E7B24"/>
+    <rect x="30" y="10" width="5" height="5" fill="#1E7B24"/>
+    <rect x="5" y="15" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="10" y="15" width="5" height="5" fill="#3DA63A"/>
+    <rect x="15" y="15" width="5" height="5" fill="#3DA63A"/>
+    <rect x="20" y="15" width="5" height="5" fill="#1E7B24"/>
+    <rect x="25" y="15" width="5" height="5" fill="#1E7B24"/>
+    <rect x="0" y="20" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="5" y="20" width="5" height="5" fill="#3DA63A"/>
+    <rect x="10" y="20" width="5" height="5" fill="#3DA63A"/>
+    <rect x="15" y="20" width="5" height="5" fill="#1E7B24"/>
+    <rect x="20" y="20" width="5" height="5" fill="#1E7B24"/>
+    <rect x="5" y="25" width="5" height="5" fill="#3DA63A"/>
+    <rect x="10" y="25" width="5" height="5" fill="#1E7B24"/>
+    <rect x="15" y="25" width="5" height="5" fill="#1E7B24"/>
+    <rect x="10" y="30" width="5" height="5" fill="#1E7B24"/>
+    <rect x="15" y="30" width="5" height="5" fill="#1E7B24"/>
+    <rect x="12" y="35" width="5" height="5" fill="#1E7B24"/>
+  </g>
+</svg>
