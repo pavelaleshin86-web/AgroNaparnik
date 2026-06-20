@@ -1,8 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
-  <rect width="1200" height="630" fill="#0f172a"/>
-  <rect x="60" y="60" width="1080" height="510" rx="24" fill="#1e293b" stroke="#334155" stroke-width="2"/>
-  <text x="100" y="280" font-family="system-ui,sans-serif" font-size="72" font-weight="700" fill="#ffffff">PPS Studio</text>
-  <text x="100" y="360" font-family="system-ui,sans-serif" font-size="36" fill="#94a3b8">51-@07@01>B:0 =0 Python 8 Django</text>
-  <rect x="100" y="400" width="48" height="48" rx="10" fill="#2563eb"/>
-  <text x="124" y="432" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#ffffff">P</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#111111"/>
+  <rect width="1200" height="630" fill="url(#bg)" opacity="0.35"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="630" x2="1200" y2="0">
+      <stop stop-color="#1E7B24"/>
+      <stop offset="0.5" stop-color="#3DA63A"/>
+      <stop offset="1" stop-color="#6FBF4B"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(100 180) scale(2.2)">
+    <rect x="20" y="0" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="25" y="0" width="5" height="5" fill="#3DA63A"/>
+    <rect x="15" y="5" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="20" y="5" width="5" height="5" fill="#3DA63A"/>
+    <rect x="25" y="5" width="5" height="5" fill="#3DA63A"/>
+    <rect x="10" y="10" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="15" y="10" width="5" height="5" fill="#3DA63A"/>
+    <rect x="20" y="10" width="5" height="5" fill="#3DA63A"/>
+    <rect x="25" y="10" width="5" height="5" fill="#1E7B24"/>
+    <rect x="5" y="15" width="5" height="5" fill="#6FBF4B"/>
+    <rect x="10" y="15" width="5" height="5" fill="#3DA63A"/>
+    <rect x="15" y="15" width="5" height="5" fill="#1E7B24"/>
+    <rect x="10" y="20" width="5" height="5" fill="#3DA63A"/>
+    <rect x="15" y="20" width="5" height="5" fill="#1E7B24"/>
+  </g>
+  <text x="320" y="290" font-family="Montserrat, system-ui, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="2">АГРОНАПАРНИК</text>
+  <text x="320" y="360" font-family="Montserrat, system-ui, sans-serif" font-size="32" font-weight="400" fill="#F5F5F5">IT-консалтинг в агробизнесе</text>
 </svg>

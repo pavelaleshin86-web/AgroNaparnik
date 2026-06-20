@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfb78e9-2e05-4be8-8da6-fdc109d46801" name="Changes" comment="Telegram" />
+    <list default="true" id="0bfb78e9-2e05-4be8-8da6-fdc109d46801" name="Changes" comment="Временно отключена форма обратной связи">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEPLOY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/render.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/og-default.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/og-default.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/services.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781736494764</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Временно отключена форма обратной связи">
+      <option name="closed" value="true" />
+      <created>1781772860028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1781772860028</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +241,8 @@
     <MESSAGE value="test1" />
     <MESSAGE value="tel" />
     <MESSAGE value="Telegram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Telegram" />
+    <MESSAGE value="Временно отключена форма обратной связи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Временно отключена форма обратной связи" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PPS$main.coverage" NAME="main Coverage Results" MODIFIED="1773406007634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
