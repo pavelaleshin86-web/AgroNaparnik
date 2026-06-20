@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfb78e9-2e05-4be8-8da6-fdc109d46801" name="Changes" comment="Rebrand: AgroNaparnik logo, Montserrat, green palette" />
+    <list default="true" id="0bfb78e9-2e05-4be8-8da6-fdc109d46801" name="Changes" comment="Restore .gitignore and .env.example for AgroNaparnik deploy">
+      <change afterPath="$PROJECT_DIR$/DEPLOY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/render.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781951880116</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Restore .gitignore and .env.example for AgroNaparnik deploy">
+      <option name="closed" value="true" />
+      <created>1781952421960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1781952421960</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +243,8 @@
     <MESSAGE value="Telegram" />
     <MESSAGE value="Временно отключена форма обратной связи" />
     <MESSAGE value="Rebrand: AgroNaparnik logo, Montserrat, green palette" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebrand: AgroNaparnik logo, Montserrat, green palette" />
+    <MESSAGE value="Restore .gitignore and .env.example for AgroNaparnik deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restore .gitignore and .env.example for AgroNaparnik deploy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PPS$main.coverage" NAME="main Coverage Results" MODIFIED="1773406007634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
